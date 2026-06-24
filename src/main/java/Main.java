@@ -8,6 +8,9 @@ public class Main {
             System.out.println("Connection Failed.");
         } else {
             System.out.println("Connection Successful!");
+            d.createMoviesTable(var);
+            System.out.println("Movies table ready!");
+
         }
     }
 }
